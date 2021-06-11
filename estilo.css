@@ -1,0 +1,95 @@
+body {
+	background: rgba(251, 217, 96, 0.5) ;
+	font-family: arial;
+	margin: 0 ;
+	color: #678e83;
+    
+}
+header img {width: 100px;
+            height: 60px;
+            float: left;
+            margin: 350;
+
+}
+            
+.header {background: url(imagenes/colores.png) ;
+   justify-content: center;
+   align-items: center;
+	     background-size: cover;
+         height: 200px;
+         text-align: center;
+         align-content: center;
+
+          }
+
+.container { text-align: center;
+ 	          position: absolute top 100px;
+           justify-content: center;
+
+ }         
+.navegador { display: flex; 
+	         justify-content: flex-end; 
+	         align-items: center; 
+	         background: #f7ff58;
+	         height: 60px;
+
+}        
+.navegador a { color: #F79277; 
+               padding: 0 20px;
+               text-decoration: none;
+               text-transform: uppercase;
+               }  
+ .navegador a:hover{ font-size: 20px;
+                     color: #ac0068 ; }   
+.enlace a {text-decoration: none;
+          color: #023e8a;
+          text-transform: uppercase;}
+.enlace a:hover { font-size: 20px;
+                  color: #ac0068 ; }
+
+.list {display: flex;
+	     justify-content: center;       
+         }
+a img {width: 200px;
+       height: 80px;}
+
+.content {text-align:left;
+          padding: 80px;
+          line-height: 30px;}
+
+.caja {text-align: center;
+          padding: 80px;}
+
+#perfil {background: #f7ff58 ;}
+.caja p { max-width: 800px;
+            margin: 0 auto; }
+
+#experiencia {background-color: #faa381 ;}
+#formacion {background-color: #ffadad;}
+#adicional {background-color: #ffd400;}
+#contact {background: url(imagenes/arcoiris.png) no-repeat center top;
+          border: 3px solid #caffbf ;
+          border-radius: 30px;
+          color: #000;
+      }
+
+
+
+.title {text-align: center;
+margin-bottom: 40px;
+text-transform: uppercase;
+
+
+}
+p { margin-bottom: 40px; }
+
+
+
+.btn-whatsapp {justify-content: flex-end;
+               float: right;
+               border: 20px solid greenyellow;
+               border-radius: 50%;
+               padding: 10px 40 px;
+               display: inline-block;
+}
+ 
